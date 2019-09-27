@@ -1,0 +1,345 @@
+
+
+@font-face {
+    font-family: 'HoeflerText-Black-02';
+    src: url("type/HoeflerText-Black-02.ttf");
+}
+    @font-face {
+    font-family: 'LucidaGrande-01';
+    src: url('type/LucidaGrande-01.ttf');
+}
+
+
+
+@media only screen and (min-width:1025px) and (max-width:1440px){
+h1 {
+  padding-top: 5%;
+  margin-top: 10px;
+  font-family: "HoeflerText-Black-02";
+  line-height: 1.12em;
+  font-size: 23px;
+  font-weight: bold;
+  color: rgba(204, 65, 0, 100);
+}
+h2{
+  font-size: 16px;
+}
+
+
+ul
+{  
+    list-style-type: none;
+    color: black;
+    margin-top: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-container {
+  padding-top: 1%;
+  margin-top: 0.5%;
+  margin-left: 8%;
+  font-family: "HoeflerText-Black-02";
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+}
+
+.nav-container h2{
+  line-height: 1.2em;
+}
+
+.name2 {
+  color: #3F6C45;
+}
+
+.nav-links {
+  font-family: LucidaGrande-01;
+  font-size: 12px;
+}
+
+.nav-links a{
+  color: #3F6C45;
+  line-height: 2em;
+}
+
+main {
+  font-family: LucidaGrande-01;
+margin-top: 2%;
+}
+
+.boxMain {
+  margin-top: 5%;
+}
+
+.quote {
+  width: 47%;
+}
+
+
+.boxMain{
+  width: 94vw;
+  height: 100vh;
+  margin: 5%;
+  background-color: rgba(252, 150, 159, 0.15);
+  position: absolute;
+  z-index: -1;
+  top: 20%;
+}
+.box{
+  margin-left:30%;
+}
+
+
+body {
+    font-size: 10px;
+    
+  }
+
+.square {
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+.uxui {
+    width: 47%;
+}
+
+.section1{
+  width: 100%;
+}
+.section1 img{
+  margin-top: 2%;
+}
+.section1 p{
+  margin-top: 2%;
+ width: 47%;
+}
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+  h1 {
+    padding-top: 5%;
+    margin-top: 10px;
+    font-family: "HoeflerText-Black-02";
+    line-height: 1.12em;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(204, 65, 0, 100);
+  }
+  h2{
+    font-size: 16px;
+  }
+  
+  
+  ul
+  {  
+      list-style-type: none;
+      color: black;
+      margin-top: 5%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-container {
+    padding-top: 1%;
+    margin-top: 0.5%;
+    margin-left: 8%;
+    font-family: "HoeflerText-Black-02";
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+  
+  }
+  
+  .nav-container h2{
+    line-height: 1.2em;
+  }
+  
+  .name2 {
+    color: #3F6C45;
+  }
+  
+  .nav-links {
+    font-family: LucidaGrande-01;
+    font-size: 12px;
+  }
+  
+  .nav-links a{
+    color: #3F6C45;
+    line-height: 2em;
+  }
+  
+  main {
+    font-family: LucidaGrande-01;
+  margin-top: 2%;
+  }
+  
+  .boxMain {
+    margin-top: 5%;
+  }
+  
+  .quote {
+    width: 47%;
+  }
+  
+  
+  .boxMain{
+    width: 94vw;
+    height: 100vh;
+    margin: 5%;
+    background-color: rgba(252, 150, 159, 0.15);
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+  }
+  .box{
+    margin-left:30%;
+  }
+  
+  
+  body {
+      font-size: 10px;
+      
+    }
+  
+  .square {
+    margin-top: 5%;
+    margin-left: 30%;
+  }
+  
+  .uxui {
+      width: 47%;
+  }
+  
+  .section1{
+    width: 100%;
+  }
+  .section1 img{
+    margin-top: 2%;
+  }
+  .section1 p{
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width:340px) and (max-width:768px){
+  h1 {
+    padding-top: 5%;
+    margin-top: 10px;
+    font-family: "HoeflerText-Black-02";
+    line-height: 1em;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(204, 65, 0, 100);
+  }
+  h2{
+    font-size: 15px;
+  }
+  
+  
+  ul
+  {  
+      list-style-type: none;
+      color: black;
+      margin-top: 5%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-container {
+    padding-top: 1%;
+    margin-top: 0.5%;
+    margin-left: 8%;
+    font-family: "HoeflerText-Black-02";
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+ 
+  }
+  
+  .nav-container h2{
+    line-height: 1.2em;
+ 
+  }
+  
+  .name2 {
+    color: #3F6C45;
+  }
+  
+  .nav-links {
+    font-family: LucidaGrande-01;
+    font-size: 12px;
+  }
+  
+  .nav-links a{
+    color: #3F6C45;
+    line-height: 2em;
+  }
+  
+  main {
+  font-family: LucidaGrande-01;
+  margin-top: 2%;
+  }
+  
+  .boxMain {
+    margin-top: 30%;
+  }
+  
+  .quote {
+    width: 60%;
+  }
+  
+  
+  .boxMain{
+    width: 94vw;
+    height: 100vh;
+    margin: 5%;
+    background-color: rgba(252, 150, 159, 0.15);
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+  }
+  .box{
+    margin-left:30%;
+  }
+  
+  
+  body {
+      font-size: 10px;
+      
+    }
+  
+  .square {
+    margin-top: 5%;
+    margin-left: 30%;
+  }
+  
+  .uxui {
+      width: 100%;
+  }
+  
+  .section1{
+    width: 100%;
+  }
+  .section1 img{
+    margin-top: 2%;
+  }
+  .section1 p{
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width:1441px){
+}

@@ -1,0 +1,187 @@
+
+
+@font-face {
+    font-family: 'HoeflerText-Black-02';
+    src: url("type/HoeflerText-Black-02.ttf");
+}
+    @font-face {
+    font-family: 'LucidaGrande-01';
+    src: url('type/LucidaGrande-01.ttf');
+}
+.logo{
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end
+}
+.logo h2{
+  width: 30%;
+}
+ul{
+  padding-top: 30%;
+}
+
+
+@media only screen and (min-width:415px) and (max-width:768px){
+
+.nav-container {
+display: flex;
+order: -1;
+font-size: 12px;
+width: 20%;
+}
+
+
+
+.nav-links {
+  display: flex;
+  flex-flow: row;
+  font-size: 12px;
+}
+
+.name {
+  margin-top: 10%;
+}
+
+.name2 {
+  margin-top: 10%;
+}
+
+
+
+
+
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+}
+@media only screen and (min-width:1025px) and (max-width:1440px){
+}
+@media only screen and (min-width:1441px){
+}
+
+.nav-container {
+  padding-top: 1%;
+  margin-top: 0.5%;
+  margin-left: 8%;
+  font-family: "HoeflerText-Black-02";
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+}
+
+.nav-container h2{
+  line-height: 1.2em;
+}
+
+.name2 {
+  color: #3F6C45;
+}
+
+.nav-links {
+  font-family: LucidaGrande-01;
+  font-size: 12px;
+}
+
+.nav-links a{
+  color: #3F6C45;
+  line-height: 2em;
+}
+
+main {
+  font-family: LucidaGrande-01;
+margin-top: 2%;
+}
+
+.boxMain {
+  margin-top: 5%;
+}
+
+.quote {
+  width: 47%;
+}
+h1 {
+  padding-top: 5%;
+  margin-top: 10px;
+  font-family: "HoeflerText-Black-02";
+  line-height: 1.12em;
+  font-size: 23px;
+  font-weight: bold;
+  color: rgba(204, 65, 0, 100);
+}
+
+
+
+
+h2{
+  font-size: 16px;
+}
+
+
+ul
+{  
+    list-style-type: none;
+    color: black;
+    margin-top: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.boxMain{
+  width: 94vw;
+  height: 100vh;
+  margin: 5%;
+  background-color: rgba(252, 150, 159, 0.15);
+  position: absolute;
+  z-index: -1;
+  top: 20%;
+}
+.box{
+  margin-left:30%;
+}
+
+
+body {
+    font-size: 10px;
+    
+  }
+
+.square {
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+.img1 {
+    width: 35%;
+    
+
+}
+
+.square2 {
+  margin-top: 5%;
+  margin-left: 60%;
+}
+
+.img2 {
+    width: 35%;
+}
+
+.square3 {
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+.img3 {
+    width: 35%;
+}
+  
+
+  
+  p {
+    color: rgba(63, 108, 69, 100);
+  }
+
